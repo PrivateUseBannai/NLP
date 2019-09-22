@@ -1,0 +1,24 @@
+1. MeCab
+
+sudo apt install mecab
+
+sudo apt install libmecab-dev
+
+sudo apt install mecab-ipadic-utf8
+
+
+2. NEologd
+
+git clone https://github.com/neologd/mecab-ipadic-neologd.git
+
+cd mecab-ipadic-neologd
+
+sudo bin/install-mecab-ipadic-neologd
+
+
+3. Python -> MeCab
+
+conda install -c anaconda swig
+
+pip install mecab-python3
+
